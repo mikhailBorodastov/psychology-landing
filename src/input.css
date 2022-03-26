@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Haus";
+    src: url("/Lighthaus/Lighthaus.eot");
+    src: url("/Lighthaus/Lighthaus.eot?#iefix") format("embedded-opentype"),
+      url("/Lighthaus/Lighthaus.woff") format("woff"),
+      url("/Lighthaus/Lighthaus.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: "San Francisco Pro Display Regular";
+    src: url("/SanFran/SFProDisplay-Regular.eot");
+    src: url("/SanFran/SFProDisplay-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("/SanFran/SFProDisplay-Regular.woff") format("woff"),
+      url("/SanFran/SFProDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: "San Francisco Pro Display Bold";
+    src: url("/SanFran/SFProDisplay-Bold.eot");
+    src: url("/SanFran/SFProDisplay-Bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("/SanFran/SFProDisplay-Bold.woff") format("woff"),
+      url("/SanFran/SFProDisplay-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: "San Francisco Pro Display Light";
+    src: url("/SanFran/SFProDisplay-Light.eot");
+    src: url("/SanFran/SFProDisplay-Light.eot?#iefix")
+        format("embedded-opentype"),
+      url("/SanFran/SFProDisplay-Light.woff") format("woff"),
+      url("/SanFran/SFProDisplay-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
